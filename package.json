@@ -1,0 +1,15 @@
+{
+  "name": "github-core-clone-01-forge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A GitHub-compatible git forge in one zero-dependency Node process: git smart HTTP, REST v3, GraphQL v4 and MCP",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "start": "node main.ts",
+    "serve": "FORGE_PORT=8081 MAKEFUN_SHOP_TOKEN=dev node main.ts"
+  }
+}
